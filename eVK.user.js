@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         eVK
-// @namespace    http://userstyles.org
-// @version      0.1
+// @namespace    https://github.com/ElFlayder/eVK
+// @version      0.2
 // @description  Редизайн ВК от ElFlayder
 // @author       ElFlayder
 // @include      http://vk.com/*
@@ -270,8 +270,8 @@ window.onload = (function() {var css = [
     "}",
     "",
     ".button_blue button, .button_gray button, .button_light_gray button, .flat_button {",
-    "   border-radius: 10px;",
-    "   font-weight: 500;",
+    "   border-radius: 10px; !important",
+    "   font-weight: 500; !important",
     "}",
     "",
     ".profile_msg_split .profile_btn_cut_left {",
@@ -298,7 +298,25 @@ window.onload = (function() {var css = [
     "   border-left: 2px solid #575757;",
     "}",
     "",
-    ".ui_rmenu_item_sel {background-color: #eaeaea;}",
+    ".ui_rmenu_item_sel {background-color: #eaeaea; }",
+    "",
+    ".top_home_link { padding: 3px; }",
+    "",
+    "#side_bar .more_div { display: none; }",
+    "",
+    "#stl_bg { margin-left: 20px; }",
+    "",
+    ".chat_onl_wrap { display: none !important; }",
+    "",
+    "::-webkit-scrollbar-track { background-color: #f9f9f9; }",
+    "",
+    "::-webkit-scrollbar { width: 6px; background-color: #42a5f5; }",
+    "",
+    "::-webkit-scrollbar-thumb { background-color: #42a5f5; border-radius: 5px; }",
+    "",
+    ".left_count_wrap .inl_bl { background: #ff3347; padding: 0.8px; padding-bottom: 0.1px; color: white; font-size: 0.6rem; border-radius: 6px; }",
+    "",
+    ".content { margin-left: -10vw; }",
     ""
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
