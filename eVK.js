@@ -12,7 +12,6 @@
 // ==/UserScript==
 
 window.onload = (function() {var css = [
-    // уфф начнемб
     "#page_header_cont .back {",
     "    background-color: #f9f9f9;",
     "    border-bottom: 1px solid #f9f9f9;",
