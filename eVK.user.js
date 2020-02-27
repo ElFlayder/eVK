@@ -187,7 +187,7 @@ window.onload = (function() {var css = [
     "  #side_bar #l_pr .left_icon {background-position: -112px -136px;}",
     "  #side_bar #l_nwsf .left_icon {background-position: -103px -163px;}",
     "  #side_bar #l_msg .left_icon {background-position: -83px -108px;}",
-    "  #side_bar #l_fr .left_icon {background-position: 3px -164px;}",
+    "  #side_bar #l_fr .left_icon {background-position: -113px -136px;}",
     "  #side_bar #l_ph .left_icon {background-position: -26px -50px;}",
     "  #side_bar #l_aud .left_icon {background-position: -27px -137px;}",
     "  #side_bar #l_vid .left_icon {background-position: -27px -166px;}",
