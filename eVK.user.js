@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         eVK
 // @namespace    https://github.com/ElFlayder/eVK
-// @version      0.3
+// @version      0.3.2
 // @description  Редизайн ВК от ElFlayder
 // @author       ElFlayder
 // @include      http://vk.com/*
@@ -317,6 +317,18 @@ window.onload = (function() {var css = [
     ".left_count_wrap .inl_bl { padding: 1px 4px; border-radius: 12px; color: #fff; font-size: 9px; height: 11px; line-height: 11px; min-width: 5px; top: 3px; left: 25px; background-color: #ff3347; text-align: center; position: absolute; z-index: 1; }",
     "",
     "#content { margin-left: -10vw; }",
+    "",
+    ".im-chat-input .im-chat-input--textarea { width: 47vw !important; }",
+    "",
+    ".im-page .im-page--chat-body-abs { width: 57vw !important; }",
+    "",
+    ".apps_featured_slider { width: 100% !important; }",
+    "",
+    ".im-page_classic.im-page .im-page--header { width: 60vw; }",
+    "",
+    ".im-right-menu { margin-left: 61vw; }",
+    "",
+    ".im-page_classic.im-page { width: 60vw !important; }",
     ""
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
