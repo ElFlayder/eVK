@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         eVK
 // @namespace    https://github.com/ElFlayder/eVK
-// @version      0.3.2
+// @version      0.3.3
 // @description  Редизайн ВК от ElFlayder
 // @author       ElFlayder
 // @include      http://vk.com/*
@@ -196,6 +196,7 @@
     "  #side_bar #l_fav .left_icon {background-position: -56px -50px;}",
     "  #side_bar #l_doc .left_icon {background-position: -28px -80px;}",
     "  #side_bar #l_bt .left_icon {background-position: 2px -51px;}",
+    "  #side_bar .genre_app .left_icon {background-position: -78px -165px;}",
     "  #side_bar #l_ap .left_icon, #side_bar #l_apm .left_icon {background-position: -54px -79px;}",
     "  #side_bar #l_gr .left_icon, #side_bar .l_comm .left_icon {background-position: 3px -164px;}",
 	"  #side_bar .left_icon {margin-top: -2px !important; opacity: 1 !important; background-position-x: -136px; background-position-y: -112px; background-size: 167px 248px; width: 30px !important; background-image: url(https://m.vk.com//images/mobile/icons/sprites/menu-7a14d06d.svg) !important;}",
@@ -329,7 +330,7 @@
     ".im-right-menu { margin-left: 61vw; }",
     "",
     ".im-page_classic.im-page { width: 60vw !important; }",
-    ""
+    ".left_fixer, .left_fixer>span { display: flex; }"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
 	GM_addStyle(css);
