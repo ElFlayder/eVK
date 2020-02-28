@@ -8,10 +8,10 @@
 // @include      https://vk.com/*
 // @include      http://*.vk.com/*
 // @include      https://*.vk.com/*
-// @run-at       document-start
+// @run-at       document-body
 // ==/UserScript==
 
-window.onload = (function() {var css = [
+(function() {const css = [
     "#page_header_cont .back {",
     "    background-color: #f9f9f9;",
     "    border-bottom: 1px solid #f9f9f9;",
@@ -350,4 +350,4 @@ if (typeof GM_addStyle != "undefined") {
 	}
 }
 document.getElementById("l_pr").innerHTML = "";
-});
+})();
