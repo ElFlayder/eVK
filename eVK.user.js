@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         eVK
 // @namespace    https://github.com/ElFlayder/eVK
-// @version      0.3.2
+// @version      0.3.3
 // @description  Редизайн ВК от ElFlayder
 // @author       ElFlayder
 // @include      http://vk.com/*
