@@ -331,6 +331,7 @@
     "",
     ".im-page_classic.im-page { width: 60vw !important; }",
     ".left_fixer, .left_fixer>span { display: flex; }"
+    "#stl_left { width: 114px !imoportant; }",
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
 	GM_addStyle(css);
